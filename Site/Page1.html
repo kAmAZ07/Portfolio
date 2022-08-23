@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Enter the page</title>
+	<style>
+		body {
+			background-color: black;
+			color: lightgreen;
+			padding: 30px
+			text-align: center;
+			width: 100%;
+		}
+	</style>
+	<script>
+		function checkPassword() {
+			var password = document.getElementById("passwordBox");
+			var passwordText = password.value;
+			if(passwordText == "ЕгорТёмаСеня") {
+				return true;
+			}
+			alert("Неверный пароль! Попробуйте ещё раз.");
+			return false;
+		}
+	</script>
+</head>
+<body>
+	<p style="font-size: 30pt; text-align: center;">Enter window</p>
+	<p>Please enter the password to look out all information</p>
+	<p> Password:<input id="passwordBox" type="password"/></p>
+	<a href="The_first_page.html" onclick="return checkPassword();">
+		Check password
+	</a>
+</body>
+</html>
+
