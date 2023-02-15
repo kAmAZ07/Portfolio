@@ -1,0 +1,13 @@
+This is my late project. The main code may be not
+completed at all, there are not protections from
+some errors, because in this moment I am working 
+on it, but the main idea of the project and logical
+decisions are clear. This bot can send a list of
+products, which it take from special table in data 
+base "Customers", can create a cart for each user
+and do basical operations with it, can send an order
+to administrator, can accept payment just in chat
+, can send to administrator final order with address.
+The originality of this project is that every 
+aspiring entrepreneur can complete the data base
+and this bot will sell his production in Telegram.
