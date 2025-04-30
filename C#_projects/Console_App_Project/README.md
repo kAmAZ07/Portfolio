@@ -1,4 +1,4 @@
-It was necessary to develop a console application "Music Organizer", which should:
+Was given a task to develop a console application "Music Organizer", which should:
 1. Store data about music tracks in a text file
 2. 
   • The application must read the track data from the file at startup.
